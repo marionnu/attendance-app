@@ -1,0 +1,113 @@
+.admin-requests .card {
+  padding: 28px;
+}
+.admin-requests .page-title {
+  text-align:center; margin: 10px 0 18px;
+}
+
+.header-row {
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  ap:16px;
+}
+.back-link {
+  font-size: 14px;
+}
+
+.tabs {
+  display:flex;
+  gap:18px;
+  justify-content:center;
+  margin: 10px 0 18px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
+}
+.tab {
+  text-decoration:none;
+  color:#333;
+  padding: 6px 10px;
+}
+.tab.is-active {
+  font-weight:bold;
+  border-bottom: 2px solid #333;
+}
+
+.table-wrap {
+  display:flex;
+  justify-content:center;
+}
+.table {
+  width: 720px;
+}
+.table th, .table td {
+  text-align:center;
+}
+
+.detail-box {
+  width: 720px;
+  margin: 0 auto 16px;
+}
+.btn-primary {
+  padding: 10px 18px;
+  background:#000; color:#fff;
+  border:none;
+  cursor:pointer;
+}
+
+.admin-approval {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+.page-title {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.card {
+  background: #fff;
+  border: 1px solid #e5e5e5;
+  border-radius: 6px;
+  padding: 10px 0;
+}
+
+.detail-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.detail-table th,
+.detail-table td {
+  padding: 18px 22px;
+  border-top: 1px solid #eee;
+  vertical-align: middle;
+}
+
+.detail-table tr:first-child th,
+.detail-table tr:first-child td {
+  border-top: none;
+}
+
+.detail-table th {
+  width: 180px;
+  color: #555;
+  font-weight: 600;
+}
+
+.actions {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 22px;
+}
+
+.btn-approve {
+  background: #000;
+  color: #fff;
+  border: none;
+  padding: 12px 26px;
+  border-radius: 6px;
+  cursor: pointer;
+}

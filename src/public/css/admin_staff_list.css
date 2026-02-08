@@ -1,0 +1,5 @@
+.admin-staff .card { padding: 28px; }
+.admin-staff .page-title { text-align: center; margin: 10px 0 24px; }
+.table-wrap { display:flex; justify-content:center; }
+.table { width: 520px; }
+.table th, .table td { text-align: center; }
